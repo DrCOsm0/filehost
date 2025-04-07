@@ -2,6 +2,7 @@ os:
   persistent_state_paths:
     - /var/lib/rook
     - /var/lib/ceph
+    - /etc/lvm
   modules:
     - rbd
     - nbd
